@@ -24,7 +24,7 @@ run **initial** to populate "show_run_base" with the initial running config
 ./initial
 ```
 
-run **compare** to compare the current running config with your initial config
+run **compare** to compare the current running config with your initial config, if there is a difference you should receive an email with the contents of **last**
 ```
 ./compare
 ```
