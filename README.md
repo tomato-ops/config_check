@@ -19,7 +19,7 @@ receiver_email = "@blah.com"  # Enter receiver address
 password = "" # Enter email password
 ```
 
-run **initial** to populate "show_run_base" with the initial running config
+run **initial** to populate **show_run_base** with the initial running config
 ```
 ./initial
 ```
