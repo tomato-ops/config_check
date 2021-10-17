@@ -1,7 +1,6 @@
 #!/bin/bash
 ssh -i /home/centos/key.pem user@0.0.0.0 show run > last
 diff show_run_base last > difference.txt
-#diff last last > difference.txt
 
 if  [  -s /home/centos/difference.txt  ]
 #	then echo "file is not empty"
@@ -10,6 +9,3 @@ else
 	echo "file is empty"
 
 fi
-
-
-
