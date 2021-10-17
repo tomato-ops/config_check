@@ -1,0 +1,2 @@
+ssh -i /home/centos/lab.pem ec2-user@18.116.45.130 show run > show_run_base
+
